@@ -41,8 +41,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "BadgeInventorsCon"
-Date "2015-12-07"
-Rev "0.06"
+Date "2015-12-12"
+Rev "0.07"
 Comp "The Inventor's House"
 Comment1 "Andrés Sabas"
 Comment2 ""
@@ -1436,8 +1436,6 @@ F 3 "" H 9150 1800 60  0000 C CNN
 	1    9150 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 9350 2850 0    60   ~ 0
-NOTA: No se si la OLED \ntiene ya las Pullup
 $Comp
 L CONN_01X06 P6
 U 1 1 5660D83D
@@ -1799,17 +1797,6 @@ F 3 "" H 3550 5000 60  0000 C CNN
 	1    3550 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R13
-U 1 1 566774F4
-P 9500 4100
-F 0 "R13" V 9580 4100 50  0000 C CNN
-F 1 "10" V 9500 4100 50  0000 C CNN
-F 2 "" V 9430 4100 30  0000 C CNN
-F 3 "" H 9500 4100 30  0000 C CNN
-	1    9500 4100
-	0    1    1    0   
-$EndComp
 Text Notes 1250 5200 0    60   ~ 0
 3.3V LDO\nMax input: 15V\nMin Input: 4.4V\nMax Current: 800mA
 $Comp
@@ -2158,4 +2145,18 @@ Wire Wire Line
 NoConn ~ 8300 4600
 Text Label 6900 5000 2    60   ~ 0
 GPIO14
+$Comp
+L D D?
+U 1 1 566DDB87
+P 9500 4100
+F 0 "D?" H 9500 4200 50  0000 C CNN
+F 1 "1N4148" H 9450 4250 50  0000 C CNN
+F 2 "" H 9500 4100 60  0000 C CNN
+F 3 "" H 9500 4100 60  0000 C CNN
+F 4 "Maxim" H 9500 4100 60  0001 C CNN "Manufacturer"
+F 5 "+85/-40" H 9500 4100 60  0001 C CNN "Temperatura"
+F 6 "5v" H 9500 4100 60  0001 C CNN "Alimentacion"
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
