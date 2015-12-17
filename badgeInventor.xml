@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/ENRIQUE/Documents/github/badge/badgeInventor.sch</source>
+    <date>14/12/2015 02:49:32 p. m.</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>badgeInventor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP8266/" tstamps="/565FC765/">
+      <title_block>
+        <title>BadgeInventorsCon</title>
+        <company>The Inventor's House</company>
+        <rev>0.07</rev>
+        <date>2015-12-12</date>
+        <source>Esp8266.sch</source>
+        <comment number="1" value="Andrés Sabas"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/USB-Serial/" tstamps="/565FDC23/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB-Serial.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D4">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC86C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC86E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC870</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC871</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC875</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC876</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC877</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>MBR120</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC87E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <fields>
+        <field name="Manufacturer">Maxim</field>
+        <field name="Temperatura">+85/-40</field>
+        <field name="Alimentacion">5v</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC880</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC886</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC887</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC888</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC88A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ESP-12E</value>
+      <libsource lib="badgeInventor-cache" part="ESP-12E"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC88D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73831</value>
+      <libsource lib="badgeInventor-cache" part="MCP73831"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FC885</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3k3</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FFDF0</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>3k3</value>
+      <fields>
+        <field name="Manufacturer">Maxim</field>
+        <field name="Temperatura">+85/-40</field>
+        <field name="Alimentacion">5v</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>565FFE4D</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>OLED_I2C</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>56608C09</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>USB Serial</value>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5660D83D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SPX1117</value>
+      <libsource lib="badgeInventor-cache" part="SPX1117"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5661541B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>56615F6E</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>LiPo</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>56616928</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1.0uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5661A935</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>AUTO-PROGRAM JUMPER</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5661D773</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5661D9CC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5661E128</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>56640577</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>56640612</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_02X10</value>
+      <libsource lib="conn" part="CONN_02X10"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>56674145</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>566672A5</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>MADW__WS2812B</value>
+      <libsource lib="badgeInventor-cache" part="MADW__WS2812B"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>5666B27C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <fields>
+        <field name="Manufacturer">Maxim</field>
+        <field name="Temperatura">+85/-40</field>
+        <field name="Alimentacion">5v</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/ESP8266/" tstamps="/565FC765/"/>
+      <tstamp>566DDB87</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X10">
+      <footprints>
+        <fp>Pin_Header_Straight_2X10</fp>
+        <fp>Pin_Header_Angled_2X10</fp>
+        <fp>Socket_Strip_Straight_2X10</fp>
+        <fp>Socket_Strip_Angled_2X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="badgeInventor-cache" part="ESP-12E">
+      <footprints>
+        <fp>ESP-12E</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REST" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="CS0" type="BiDi"/>
+        <pin num="10" name="MISO" type="BiDi"/>
+        <pin num="11" name="GPIO9" type="BiDi"/>
+        <pin num="12" name="GPIO10" type="BiDi"/>
+        <pin num="13" name="MOSI" type="BiDi"/>
+        <pin num="14" name="SCLK" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO15" type="BiDi"/>
+        <pin num="17" name="GPIO2" type="BiDi"/>
+        <pin num="18" name="GPIO0" type="BiDi"/>
+        <pin num="19" name="GPIO4" type="BiDi"/>
+        <pin num="20" name="GPIO5" type="BiDi"/>
+        <pin num="21" name="RXD" type="input"/>
+        <pin num="22" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="badgeInventor-cache" part="MADW__WS2812B">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">MADW__WS2812B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="badgeInventor-cache" part="MCP73831">
+      <footprints>
+        <fp>SOT23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="input"/>
+        <pin num="2" name="VSS" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="badgeInventor-cache" part="SPX1117">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VOUT" type="input"/>
+        <pin num="3" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="badgeInventor-cache">
+      <uri>C:\Users\ENRIQUE\Documents\github\badge\badgeInventor-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="2" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="3" name="/ESP8266/GPIO15">
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="4" name="/ESP8266/GPIO2">
+      <node ref="P2" pin="13"/>
+      <node ref="U3" pin="17"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="5" name="/ESP8266/GPIO0">
+      <node ref="D3" pin="2"/>
+      <node ref="U3" pin="18"/>
+      <node ref="P2" pin="18"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="6" name="/ESP8266/GPIO4/SDA">
+      <node ref="P5" pin="4"/>
+      <node ref="P2" pin="17"/>
+      <node ref="U3" pin="19"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="/ESP8266/ADC_IN">
+      <node ref="P2" pin="10"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="/ESP8266/RST">
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="11" name="/ESP8266/CH_PD">
+      <node ref="U3" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="LED1" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P6" pin="6"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P2" pin="9"/>
+      <node ref="P2" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="P2" pin="19"/>
+    </net>
+    <net code="13" name="+3V3">
+      <node ref="R1" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P2" pin="20"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="14" name="VCC">
+      <node ref="U2" pin="4"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P6" pin="4"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="15" name="+BATT">
+      <node ref="P2" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="16" name="/ESP8266/GPIO5/SCL">
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="17" name="/ESP8266/TX">
+      <node ref="P2" pin="14"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="18" name="/ESP8266/RX">
+      <node ref="U3" pin="22"/>
+      <node ref="P6" pin="2"/>
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="19" name="/ESP8266/ADC">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="20" name="/ESP8266/GPIO16">
+      <node ref="U3" pin="4"/>
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="21" name="/ESP8266/GPIO12">
+      <node ref="U3" pin="6"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="22" name="/ESP8266/GPIO13">
+      <node ref="U3" pin="7"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="23" name="Net-(LED1-Pad4)">
+      <node ref="LED1" pin="4"/>
+    </net>
+    <net code="24" name="Net-(D5-Pad2)">
+      <node ref="P6" pin="3"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="25" name="/ESP8266/GPIO14">
+      <node ref="LED1" pin="2"/>
+      <node ref="P2" pin="16"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="26" name="Net-(P6-Pad5)">
+      <node ref="P6" pin="5"/>
+    </net>
+    <net code="27" name="/ESP8266/DTR">
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="33" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+  </nets>
+</export>

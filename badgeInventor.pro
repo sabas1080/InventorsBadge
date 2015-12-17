@@ -1,4 +1,4 @@
-update=lun 07 dic 2015 22:47:25 CST
+update=16/12/2015 08:56:24 p. m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -64,3 +62,5 @@ LibName32=/home/electronica/Documentos/LibreriasKicad/kicadlibrary/open-project
 LibName33=/home/electronica/Documentos/LibreriasKicad/KicadLibrary_Inventors/theinventorhouse
 LibName34=/home/electronica/Documentos/LibreriasKicad/shardy
 LibName35=/home/electronica/Documentos/LibreriasKicad/rgb_led_toy
+[general]
+version=1
