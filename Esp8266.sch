@@ -35,11 +35,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "BadgeInventorsCon"
-Date "2015-12-12"
-Rev "0.07"
+Date "2015-12-16"
+Rev "0.08"
 Comp "The Inventor's House"
 Comment1 "Andrés Sabas"
-Comment2 ""
+Comment2 "Eduardo Contreras "
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1692,8 +1692,6 @@ Text Label 4200 4600 2    60   ~ 0
 GPIO5/SCL
 Text Label 4200 4500 2    60   ~ 0
 GPIO4/SDA
-Text Label 5450 4800 0    60   ~ 0
-GPIO0
 Text Label 4200 4300 2    60   ~ 0
 GPIO0
 Text Label 4200 4200 2    60   ~ 0
@@ -2121,7 +2119,7 @@ $EndComp
 Wire Wire Line
 	6200 4900 5200 4900
 Wire Wire Line
-	5200 4800 5450 4800
+	5200 4800 5650 4800
 Wire Wire Line
 	5200 4700 5450 4700
 Wire Wire Line
@@ -2164,4 +2162,38 @@ Wire Wire Line
 	5950 4000 5950 4100
 Wire Wire Line
 	5950 4100 5200 4100
+$Comp
+L SW_PUSH SW2
+U 1 1 56724A25
+P 3100 1700
+F 0 "SW2" H 3250 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 3100 1620 50  0000 C CNN
+F 2 "open-project:SW_PUSH_SMD" H 3100 1700 60  0001 C CNN
+F 3 "" H 3100 1700 60  0000 C CNN
+	1    3100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 56724B42
+P 3500 1600
+F 0 "#PWR038" H 3500 1350 50  0001 C CNN
+F 1 "GND" H 3500 1450 50  0000 C CNN
+F 2 "" H 3500 1600 60  0000 C CNN
+F 3 "" H 3500 1600 60  0000 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1400 3100 1150
+Wire Wire Line
+	3100 1150 3500 1150
+Wire Wire Line
+	3500 1150 3500 1600
+Wire Wire Line
+	3100 2000 3100 2150
+Connection ~ 3100 2150
+Wire Wire Line
+	5650 4800 5650 4900
+Connection ~ 5650 4900
 $EndSCHEMATC
