@@ -1902,8 +1902,6 @@ Wire Wire Line
 Wire Wire Line
 	10100 4000 9650 4000
 Wire Wire Line
-	10100 4100 9650 4100
-Wire Wire Line
 	8900 4200 10100 4200
 Wire Wire Line
 	10100 4300 9650 4300
@@ -1999,8 +1997,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 4150 8900 4200
 Wire Wire Line
-	9350 4100 9200 4100
-Wire Wire Line
 	7150 4600 6900 4600
 $Comp
 L C C5
@@ -2085,14 +2081,14 @@ L D D5
 U 1 1 566DDB87
 P 9500 4100
 F 0 "D5" H 9500 4200 50  0000 C CNN
-F 1 "1N4148" H 9450 4250 50  0000 C CNN
+F 1 "1N4148" H 9600 4300 50  0000 C CNN
 F 2 "Diodes_SMD:SOD-323" H 9500 4100 60  0001 C CNN
 F 3 "" H 9500 4100 60  0000 C CNN
 F 4 "Maxim" H 9500 4100 60  0001 C CNN "Manufacturer"
 F 5 "+85/-40" H 9500 4100 60  0001 C CNN "Temperatura"
 F 6 "5v" H 9500 4100 60  0001 C CNN "Alimentacion"
 	1    9500 4100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X10 P23
@@ -2196,4 +2192,8 @@ Connection ~ 3100 2150
 Wire Wire Line
 	5650 4800 5650 4900
 Connection ~ 5650 4900
+Wire Wire Line
+	9650 4100 10100 4100
+Wire Wire Line
+	9200 4100 9350 4100
 $EndSCHEMATC
